@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 2;
+}
+
+.container{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 12vh;
+}
+h1{
+    margin-bottom: 5vh;
+}
+.main-box{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 20px;
+    grid-template-rows: 350px;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+.side-box{
+    display: grid;
+    grid-template-columns: 500px 90px 90px 500px;
+    grid-gap: 5px;
+    grid-template-rows:200px;
+    justify-content: center;
+}
+
+.box h3{
+    margin-top:250px ;
+    margin-left: 100px;
+}
+.box p{
+    margin-left: 100px;
+}
+.side-box img{
+    height: 8vh;
+}
+
+.a{
+    background: url(s6.jpg) no-repeat center;
+    background-size:contain;
+}
+.b{
+    background: url(s7.jpg) no-repeat center ;
+    background-size:contain;
+}
+.c{
+    background: url(s8.jpg) no-repeat center ;
+    background-size:contain;
+}
+.d{
+    background: url(s9.jpg) no-repeat center ;
+    background-size:contain;
+}
+
+span{
+    font-weight: bold;
+}
